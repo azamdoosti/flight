@@ -1,10 +1,10 @@
 
-import { BeakerIcon, XCircleIcon } from '@heroicons/react/24/outline'
+import {  XCircleIcon } from '@heroicons/react/24/outline'
 import slide from '../src/assets/flight.webp'
 import plane from '../src/assets/plain.svg'
 import train from '../src/assets/train.svg'
 import hotel from '../src/assets/hotel.svg'
-import { useEffect, useState } from 'react'
+import {  useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import axios from 'axios'
 import { AnimatePresence, motion } from "framer-motion"
